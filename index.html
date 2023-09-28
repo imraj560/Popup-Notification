@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Notification Popup Message</title>
+        <link href="style.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Inclusive+Sans&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/9ac385e2ce.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <div class="buttons">
+
+        <button onclick="showToast(successMsg)">Success</button>
+        <button onclick="showToast(errorMsg)">Error</button>
+        <button onclick="showToast(invalidMsg)">Invalid</button>
+
+      </div>
+
+      <div id="toastBox">
+
+      </div>
+
+    </body>
+    
+    <script src="index.js"></script>
+</html>
