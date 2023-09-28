@@ -53,3 +53,13 @@
     font-size: 35px;
     margin:0 20px;
 }
+
+.toast.error i{
+
+    color: red;
+}
+
+.toast.invalid i{
+
+    color:orange;
+}
